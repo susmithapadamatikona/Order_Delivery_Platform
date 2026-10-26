@@ -1,0 +1,44 @@
+:root {
+  --bg: #171311;
+  --section: #211A17;
+  --card: #382922;
+  --surface: #2A211D;
+  --gold: #F0783C;
+  --gold-hover: #FF995F;
+  --bronze: #B84D27;
+  --brown: #642D20;
+  --heading: #FFF9F4;
+  --text: #F2E7DE;
+  --light: #D7C9BE;
+  --muted: #A9978B;
+  --border: rgba(255,255,255,0.08);
+  --glass: rgba(255,255,255,0.08);
+  --success: #69B879;
+  --warning: #F3B64D;
+  --error: #EF6256;
+  --info: #63A9D8;
+  --hero-gradient: linear-gradient(135deg, #171311, #241A16, #38251D);
+  --gold-gradient: linear-gradient(90deg, #B84D27, #F0783C, #FFB16D);
+  --shadow: 0 24px 70px rgba(0,0,0,0.35);
+  --radius: 8px;
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-body: "Outfit", "Poppins", Arial, sans-serif;
+}
+
+body.light-mode {
+  --bg: #FFF8F1;
+  --section: #FFFFFF;
+  --card: #F8E9DD;
+  --surface: #FFFDF9;
+  --gold: #C64F22;
+  --gold-hover: #A83D18;
+  --bronze: #8D3519;
+  --heading: #2C1A14;
+  --text: #3C2B23;
+  --light: #57443A;
+  --muted: #806C60;
+  --border: rgba(67,39,27,0.14);
+  --glass: rgba(255,255,255,0.68);
+  --hero-gradient: linear-gradient(135deg, #FFF8F1, #F8E9DD, #F3D9C5);
+  --gold-gradient: linear-gradient(90deg, #A83D18, #C64F22, #E4773C);
+}

@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Order your favorite meals with Stackly. Discover popular dishes, explore local menus, and enjoy fresh food delivered to your door.">
+    <title>Stackly | Food Delivery Made Easy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body class="page-shell" data-page="home">
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html">
+          <img src="assets/images/stackly-logo.webp" alt="Stackly">
+        </a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="menu.html">Menu</a>
+          <a href="offers.html">Offers</a>
+          <a href="#delivery-steps">How It Works</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+          <div class="nav-auth-mobile">
+            <a class="btn btn-ghost" href="login.html">
+              <i class="fa-solid fa-right-to-bracket">
+              </i> Login</a>
+              <a class="btn btn-primary" href="register.html">
+                <i class="fa-solid fa-user-plus">
+                </i> Register</a>
+              </div>
+            </nav>
+            <div class="nav-actions">
+              <a class="btn btn-ghost nav-auth" href="login.html">
+                <i class="fa-solid fa-right-to-bracket">
+                </i> Login</a>
+                <a class="btn btn-primary nav-auth" href="register.html">
+                  <i class="fa-solid fa-user-plus">
+                  </i> Register</a>
+                  <button class="icon-btn hamburger" title="Menu">
+                    <i class="fa-solid fa-bars">
+                    </i>
+                  </button>
+                </div>
+              </div>
+            </header>
+            <main id="app">
+              <section class="hero home-hero">
+                <img class="hero-bg hero-bg-clear" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?fm=webp&fit=crop&w=900&q=44" alt="" aria-hidden="true">
+                <div class="container hero-content">
+                  <div class="hero-panel">
+                    <span class="eyebrow">Fresh food, right on time</span>
+                    <h1>Your favorites, delivered.</h1>
+                    <div class="lux-line">
+                    </div>
+                    <p class="lead">Discover delicious meals from local favorites and get them delivered fresh to your door. Great food is only a few taps away.</p>
+                    <div class="hero-actions">
+                      <a class="btn btn-primary" href="menu.html">
+                        <i class="fa-solid fa-bag-shopping">
+                        </i> Order Now</a>
+                        <a class="btn btn-ghost" href="menu.html">
+                          <i class="fa-solid fa-utensils">
+                          </i> Browse Menu</a>
+                        </div>
+                        <ul class="hero-meta">
+                          <li>
+                            <i class="fa-solid fa-star">
+                            </i> Loved by food lovers</li>
+                            <li>
+                              <i class="fa-solid fa-utensils">
+                              </i> Freshly prepared meals</li>
+                              <li>
+                                <i class="fa-solid fa-location-dot">
+                                </i> Local restaurants near you</li>
+                                <li>
+                                  <i class="fa-solid fa-clock">
+                                  </i> Delivered fresh to your door</li>
+                                </ul>
+                              </div>
+                            </div>
+                  </section>
+                  <div class="reservation-ribbon">
+                    <div class="container">
+                      <div class="quick-reserve delivery-prompt glass">
+                        <div>
+                          <span class="eyebrow">Hungry?</span>
+                          <strong>Fresh meals from local favorites, delivered to your door.</strong>
+                        </div>
+                        <a class="btn btn-primary" href="menu.html">
+                          <i class="fa-solid fa-utensils"></i> Browse Restaurants</a>
+                      </div>
+                    </div>
+                  </div>
+                    <section class="section">
+                      <div class="container section-head">
+                        <div>
+                          <span class="eyebrow">Customer Favorites</span>
+                          <h2>Popular Near You</h2>
+                        </div>
+                        <p>Explore crowd-pleasing meals prepared fresh by the restaurants you love.</p>
+                      </div>
+                      <div class="container grid grid-3">
+                        <article class="card image-card menu-card" data-dish="1">
+                          <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?fm=webp&fit=crop&w=760&q=38" alt="Saffron Lobster Veloute">
+                          <div class="card-body">
+                            <div class="menu-title-row">
+                              <div>
+                                <span class="tag">Non-Veg</span>
+                                <h3>Saffron Lobster Veloute</h3>
+                              </div>
+                              <button class="favorite" data-fav="1" title="Favorite">
+                                <i class="fa-solid fa-heart">
+                                </i>
+                              </button>
+                            </div>
+                            <p>Butter-poached lobster, saffron cream, fennel pollen, and smoked caviar.</p>
+                            <div class="dish-meta">
+                              <span>
+                                <i class="fa-regular fa-clock">
+                                </i> 28 min</span>
+                                <span>
+                                  <i class="fa-solid fa-star">
+                                  </i> Chef pick</span>
+                                </div>
+                                <div class="inline-actions">
+                                  <span class="price">$86</span>
+                                  <a class="btn btn-ghost" href="404.html">Details</a>
+                                </div>
+                              </div>
+                            </article>
+                            <article class="card image-card menu-card" data-dish="2">
+                              <img src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?fm=webp&fit=crop&w=760&q=80" alt="Truffle Morel Risotto">
+                              <div class="card-body">
+                                <div class="menu-title-row">
+                                  <div>
+                                    <span class="tag">Italian</span>
+                                    <h3>Truffle Morel Risotto</h3>
+                                  </div>
+                                  <button class="favorite" data-fav="2" title="Favorite">
+                                    <i class="fa-regular fa-heart">
+                                    </i>
+                                  </button>
+                                </div>
+                                <p>Carnaroli rice folded with black truffle, morels, parmesan, and aged balsamic.</p>
+                                <div class="dish-meta">
+                                  <span>
+                                    <i class="fa-regular fa-clock">
+                                    </i> 24 min</span>
+                                    <span>
+                                      <i class="fa-solid fa-star">
+                                      </i> Chef pick</span>
+                                    </div>
+                                    <div class="inline-actions">
+                                      <span class="price">$64</span>
+                                      <a class="btn btn-ghost" href="404.html">Details</a>
+                                    </div>
+                                  </div>
+                                </article>
+                                <article class="card image-card menu-card" data-dish="3">
+                                  <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?fm=webp&fit=crop&w=760&q=50" alt="Charcoal Paneer Royal">
+                                  <div class="card-body">
+                                    <div class="menu-title-row">
+                                      <div>
+                                        <span class="tag">Indian</span>
+                                        <h3>Charcoal Paneer Royal</h3>
+                                      </div>
+                                      <button class="favorite" data-fav="3" title="Favorite">
+                                        <i class="fa-regular fa-heart">
+                                        </i>
+                                      </button>
+                                    </div>
+                                    <p>Tandoor paneer, cashew silk curry, fenugreek, and edible gold dust.</p>
+                                    <div class="dish-meta">
+                                      <span>
+                                        <i class="fa-regular fa-clock">
+                                        </i> 22 min</span>
+                                        <span>
+                                          <i class="fa-solid fa-star">
+                                          </i> Chef pick</span>
+                                        </div>
+                                        <div class="inline-actions">
+                                          <span class="price">$42</span>
+                                          <a class="btn btn-ghost" href="404.html">Details</a>
+                                        </div>
+                                      </div>
+                                    </article>
+                                    <article class="card image-card menu-card" data-dish="4">
+                                      <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?fm=webp&fit=crop&w=760&q=80" alt="Jade Dumpling Consomme">
+                                      <div class="card-body">
+                                        <div class="menu-title-row">
+                                          <div>
+                                            <span class="tag">Chinese</span>
+                                            <h3>Jade Dumpling Consomme</h3>
+                                          </div>
+                                          <button class="favorite" data-fav="4" title="Favorite">
+                                            <i class="fa-regular fa-heart">
+                                            </i>
+                                          </button>
+                                        </div>
+                                        <p>Crystal dumplings in clarified mushroom tea with ginger and chive oil.</p>
+                                        <div class="dish-meta">
+                                          <span>
+                                            <i class="fa-regular fa-clock">
+                                            </i> 18 min</span>
+                                            <span>
+                                              <i class="fa-solid fa-star">
+                                              </i> Chef pick</span>
+                                            </div>
+                                            <div class="inline-actions">
+                                              <span class="price">$38</span>
+                                              <a class="btn btn-ghost" href="404.html">Details</a>
+                                            </div>
+                                          </div>
+                                        </article>
+                                        <article class="card image-card menu-card" data-dish="5">
+                                          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?fm=webp&fit=crop&w=760&q=80" alt="Mole Wagyu Short Rib">
+                                          <div class="card-body">
+                                            <div class="menu-title-row">
+                                              <div>
+                                                <span class="tag">Mexican</span>
+                                                <h3>Mole Wagyu Short Rib</h3>
+                                              </div>
+                                              <button class="favorite" data-fav="5" title="Favorite">
+                                                <i class="fa-solid fa-heart">
+                                                </i>
+                                              </button>
+                                            </div>
+                                            <p>Slow glazed wagyu, cacao mole, blue corn, and pickled heirloom onion.</p>
+                                            <div class="dish-meta">
+                                              <span>
+                                                <i class="fa-regular fa-clock">
+                                                </i> 36 min</span>
+                                                <span>
+                                                  <i class="fa-solid fa-star">
+                                                  </i> Chef pick</span>
+                                                </div>
+                                                <div class="inline-actions">
+                                                  <span class="price">$92</span>
+                                                  <a class="btn btn-ghost" href="404.html">Details</a>
+                                                </div>
+                                              </div>
+                                            </article>
+                                            <article class="card image-card menu-card" data-dish="6">
+                                              <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?fm=webp&fit=crop&w=760&q=56" alt="Garden Jewel Tartare">
+                                              <div class="card-body">
+                                                <div class="menu-title-row">
+                                                  <div>
+                                                    <span class="tag">Veg</span>
+                                                    <h3>Garden Jewel Tartare</h3>
+                                                  </div>
+                                                  <button class="favorite" data-fav="6" title="Favorite">
+                                                    <i class="fa-regular fa-heart">
+                                                    </i>
+                                                  </button>
+                                                </div>
+                                                <p>Compressed beetroot, avocado cream, citrus pearls, and toasted seeds.</p>
+                                                <div class="dish-meta">
+                                                  <span>
+                                                    <i class="fa-regular fa-clock">
+                                                    </i> 16 min</span>
+                                                    <span>
+                                                      <i class="fa-solid fa-star">
+                                                      </i> Chef pick</span>
+                                                    </div>
+                                                    <div class="inline-actions">
+                                                      <span class="price">$34</span>
+                                                      <a class="btn btn-ghost" href="404.html">Details</a>
+                                                    </div>
+                                                  </div>
+                                                </article>
+                                              </div>
+                                            </section>
+                                            <section class="section alt">
+                                              <div class="container split">
+                                                <div>
+                                                  <span class="eyebrow">Made for your day</span>
+                                                  <h2>Good food, delivered with care.</h2>
+                                                  <p class="lead">Choose a meal you love, place your order in moments, and let our delivery team bring it to you fresh.</p>
+                                                  <div class="stat-row mt-2">
+                                                    <div class="stat">
+                                                      <strong>Local</strong>
+                                                      <span>restaurant favorites</span>
+                                                    </div>
+                                                    <div class="stat">
+                                                      <strong>Fresh</strong>
+                                                      <span>Restaurants nearby</span>
+                                                    </div>
+                                                    <div class="stat">
+                                                      <strong>Easy</strong>
+                                                      <span>online ordering</span>
+                                                    </div>
+                                                    <div class="stat">
+                                                      <strong>Made</strong>
+                                                      <span>with care</span>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="media-stack">
+                                                  <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?fm=webp&fit=crop&w=760&q=56" alt="Freshly prepared meal ready for delivery">
+                                                  <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?fm=webp&fit=crop&w=760&q=80" alt="Restaurant meal prepared for takeaway">
+                                                </div>
+                                              </div>
+                                            </section>
+                                            <section class="section">
+                                              <div class="container section-head">
+                                                <div>
+                                                  <span class="eyebrow">Handpicked for you</span>
+                                                  <h2>Meals worth staying in for</h2>
+                                                </div>
+                                                <a class="btn btn-ghost" href="menu.html">View Full Menu</a>
+                                              </div>
+                                              <div class="container grid grid-3">
+                                                <article class="card chef-card">
+                                                  <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?fm=webp&fit=crop&w=600&q=80" alt="Rafael Moreau">
+                                                  <div class="card-body">
+                                                    <h3>Rafael Moreau</h3>
+                                                    <span class="tag">Executive Chef</span>
+                                                    <p>French technique with coastal Indian spice architecture.</p>
+                                                  </div>
+                                                </article>
+                                                <article class="card chef-card">
+                                                  <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?fm=webp&fit=crop&w=600&q=74" alt="Anika Rao">
+                                                  <div class="card-body">
+                                                    <h3>Anika Rao</h3>
+                                                    <span class="tag">Pastry Director</span>
+                                                    <p>Architectural desserts, floral infusions, and precise plated drama.</p>
+                                                  </div>
+                                                </article>
+                                                <article class="card chef-card">
+                                                  <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?fm=webp&fit=crop&w=600&q=80" alt="Marco Bellini">
+                                                  <div class="card-body">
+                                                    <h3>Marco Bellini</h3>
+                                                    <span class="tag">Chef de Cuisine</span>
+                                                    <p>Italian-inspired meals prepared fresh and ready to enjoy at home.</p>
+                                                  </div>
+                                                </article>
+                                              </div>
+                                            </section>
+                                            <section class="section alt" id="delivery-steps">
+                                              <div class="container section-head">
+                                                <div>
+                                                  <span class="eyebrow">How It Works</span>
+                                                  <h2>Your next great meal in four easy steps.</h2>
+                                                </div>
+                                                <p>From choosing your meal to the first bite, ordering is simple.</p>
+                                              </div>
+                                              <div class="container grid grid-4">
+                                                <article class="card card-body">
+                                                  <span class="tag">01</span>
+                                                  <h3>Choose a Meal</h3>
+                                                  <p>Browse local menus and find something you are craving.</p>
+                                                </article>
+                                                <article class="card card-body">
+                                                  <span class="tag">02</span>
+                                                  <h3>Place Your Order</h3>
+                                                  <p>Add your favorites and check out in just a few taps.</p>
+                                                </article>
+                                                <article class="card card-body">
+                                                  <span class="tag">03</span>
+                                                  <h3>We Get Cooking</h3>
+                                                  <p>Your restaurant prepares your meal fresh for delivery.</p>
+                                                </article>
+                                                <article class="card card-body">
+                                                  <span class="tag">04</span>
+                                                  <h3>Enjoy at Home</h3>
+                                                  <p>Enjoy a freshly prepared meal delivered right to your door.</p>
+                                                </article>
+                                              </div>
+                                            </section>
+                                            <section class="section">
+                                              <div class="container split">
+                                                <div class="media-stack">
+                                                  <img src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?fm=webp&fit=crop&w=760&q=80" alt="A delicious meal ready to enjoy">
+                                                  <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?fm=webp&fit=crop&w=760&q=44" alt="A freshly prepared restaurant dish">
+                                                </div>
+                                                <div>
+                                                  <span class="eyebrow">Your neighborhood favorites</span>
+                                                  <h2>Restaurant-quality meals, wherever you are.</h2>
+                                                  <p class="lead">From a quick lunch to dinner with friends, discover local restaurants and have the food you love delivered right to your door.</p>
+                                                  <div class="hero-actions">
+                                                    <a class="btn btn-primary" href="menu.html">
+                                                      <i class="fa-solid fa-bag-shopping">
+                                                      </i> Order Food</a>
+                                                      <a class="btn btn-ghost" href="offers.html">
+                                                        <i class="fa-solid fa-tag">
+                                                        </i> See Offers</a>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </section>
+                                                <section class="section alt">
+                                                  <div class="container section-head">
+                                                    <div>
+                                                      <span class="eyebrow">Happy Customers</span>
+                                                      <h2>Good food always finds its way home.</h2>
+                                                    </div>
+                                                    <a class="btn btn-ghost" href="testimonials.html">More Reviews</a>
+                                                  </div>
+                                                  <div class="container grid grid-3">
+                                                    <article class="card card-body">
+                                                      <h3>Still warm and delicious.</h3>
+                                                      <p>My dinner arrived right on time, packed carefully, and tasted just as good as dining out.</p>
+                                                      <span class="tag">Maya Lin</span>
+                                                    </article>
+                                                    <article class="card card-body">
+                                                      <h3>So easy to order.</h3>
+                                                      <p>I found a new favorite restaurant nearby and had a great meal at home in no time.</p>
+                                                      <span class="tag">Arjun Mehta</span>
+                                                    </article>
+                                                    <article class="card card-body">
+                                                      <h3>Perfect for busy nights.</h3>
+                                                      <p>Plenty of choices and an easy ordering process made dinner stress-free.</p>
+                                                      <span class="tag">Sofia Grant</span>
+                                                    </article>
+                                                  </div>
+                                                </section>
+                                                <section class="section alt">
+                                                  <div class="container section-head">
+                                                    <div>
+                                                      <span class="eyebrow">Made fresh, delivered with care</span>
+                                                      <h2>Food you'll love</h2>
+                                                    </div>
+                                                    <a class="btn btn-primary" href="menu.html">Explore the Menu</a>
+                                                  </div>
+                                                  <div class="container gallery-grid">
+                                                    <div class="gallery-item">
+                                                      <img src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?fm=webp&fit=crop&w=760&q=80" alt="Stackly gallery">
+                                                    </div>
+                                                    <div class="gallery-item">
+                                                      <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?fm=webp&fit=crop&w=760&q=56" alt="Stackly gallery">
+                                                    </div>
+                                                    <div class="gallery-item">
+                                                      <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?fm=webp&fit=crop&w=760&q=56" alt="Stackly gallery">
+                                                    </div>
+                                                    <div class="gallery-item">
+                                                      <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?fm=webp&fit=crop&w=760&q=44" alt="Stackly gallery">
+                                                    </div>
+                                                    <div class="gallery-item">
+                                                      <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?fm=webp&fit=crop&w=760&q=80" alt="Stackly gallery">
+                                                    </div>
+                                                    <div class="gallery-item">
+                                                      <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?fm=webp&fit=crop&w=760&q=50" alt="Stackly gallery">
+                                                    </div>
+                                                  </div>
+                                                </section>
+                                                <section class="section">
+                                                  <div class="container grid grid-3">
+                                                    <article class="offer-card card">
+                                                      <h3>First Order Favorites</h3>
+                                                      <p>Discover something delicious from a local restaurant.</p>
+                                                      <span class="price">New Picks</span>
+                                                    </article>
+                                                    <article class="offer-card card">
+                                                      <h3>Quick Lunch</h3>
+                                                      <p>Find a fresh, satisfying meal for your midday break.</p>
+                                                      <span class="price">Lunch Picks</span>
+                                                    </article>
+                                                    <article class="offer-card card">
+                                                      <h3>Family Favorites</h3>
+                                                      <p>Explore meals to share with family and friends.</p>
+                                                      <span class="price">Popular Meals</span>
+                                                    </article>
+                                                  </div>
+                                                </section>
+                                              </main>
+                                              <footer class="site-footer">
+                                                <div class="container footer-cta">
+                                                  <div>
+                                                    <span class="eyebrow">Get the good stuff</span>
+                                                    <h3>Get tasty offers and new favorites delivered to your inbox.</h3>
+                                                  </div>
+                                                  <form class="newsletter" data-newsletter>
+                                                    <input name="email" type="email" placeholder="Your email address" required>
+                                                    <button class="btn btn-primary">
+                                                      <i class="fa-solid fa-paper-plane">
+                                                      </i> Subscribe</button>
+                                                    </form>
+                                                  </div>
+                                                  <div class="container footer-grid">
+                                                    <div class="footer-brand">
+                                                      <a class="brand" href="index.html">
+                                                        <img src="assets/images/stackly-logo.webp" alt="Stackly">
+                                                      </a>
+                                                      <p>Discover great local food, order your favorites with ease, and enjoy fresh meals delivered to your door.</p>
+                                                      <div class="socials">
+                                                        <a class="social" href="404.html" aria-label="Stackly on Instagram" title="Instagram">
+                                                          <i class="fa-brands fa-instagram">
+                                                          </i>
+                                                        </a>
+                                                        <a class="social" href="404.html" aria-label="Stackly on Facebook" title="Facebook">
+                                                          <i class="fa-brands fa-facebook-f">
+                                                          </i>
+                                                        </a>
+                                                        <a class="social" href="404.html" aria-label="Stackly on X" title="X">
+                                                          <i class="fa-brands fa-x-twitter">
+                                                          </i>
+                                                        </a>
+                                                        <a class="social" href="404.html" aria-label="Stackly on YouTube" title="YouTube">
+                                                          <i class="fa-brands fa-youtube">
+                                                          </i>
+                                                        </a>
+                                                        <a class="social" href="404.html" aria-label="Stackly on TikTok" title="TikTok">
+                                                          <i class="fa-brands fa-tiktok">
+                                                          </i>
+                                                        </a>
+                                                      </div>
+                                                    </div>
+                                                    <div class="footer-col">
+                                                      <h4>Explore</h4>
+                                                      <a href="menu.html">Browse Menu</a>
+                                                      <a href="offers.html">Offers</a>
+                                                      <a href="about.html">About Us</a>
+                                                      <a href="contact.html">Contact</a>
+                                                    </div>
+                                                    <div class="footer-col">
+                                                      <h4>Ordering</h4>
+                                                      <a href="menu.html">Order Food</a>
+                                                      <a href="faq.html">FAQs</a>
+                                                      <a href="testimonials.html">Customer Reviews</a>
+                                                      <a href="offers.html">Current Offers</a>
+                                                    </div>
+                                                    <div class="footer-col">
+                                                      <h4>Support</h4>
+                                                      <a href="contact.html">Contact</a>
+                                                      <a href="faq.html">FAQ</a>
+                                                      <a href="offers.html">Offers</a>
+                                                    </div>
+                                                    <div class="footer-col footer-contact">
+                                                      <h4>Delivery Support</h4>
+                                                      <p>
+                                                        <i class="fa-solid fa-location-dot">
+                                                        </i>
+                                                        <span>12 Astor Lane, New York</span>
+                                                      </p>
+                                                      <p>
+                                                        <i class="fa-solid fa-phone">
+                                                        </i>
+                                                        <span>+1 212 555 0198</span>
+                                                      </p>
+                                                      <p>
+                                                        <i class="fa-solid fa-envelope">
+                                                        </i>
+                                                        <span>concierge@stackly.example</span>
+                                                      </p>
+                                                      <p>
+                                                        <i class="fa-regular fa-clock">
+                                                        </i>
+                                                        <span>Open daily, 12 PM - 12 AM</span>
+                                                      </p>
+                                                    </div>
+                                                  </div>
+                                                  <div class="container footer-bottom">
+                                                    <span>© 2026 Stackly. Good food, delivered.</span>
+                                                    <span class="footer-legal">
+                                                      <a href="404.html">Privacy</a>
+                                                      <a href="404.html">Terms</a>
+                                                      <a href="404.html">Press</a>
+                                                    </span>
+                                                  </div>
+                                                </footer>
+                                                <script src="assets/js/storage.js">
+                                                </script>
+                                                <script src="assets/js/toast.js">
+                                                </script>
+                                                <script src="assets/js/modal.js">
+                                                </script>
+                                                <script src="assets/js/auth.js">
+                                                </script>
+                                                <script src="assets/js/menu.js">
+                                                </script>
+                                                <script src="assets/js/gallery.js">
+                                                </script>
+                                                <script src="assets/js/reservation.js">
+                                                </script>
+                                                <script src="assets/js/dashboard.js">
+                                                </script>
+                                                <script src="assets/js/charts.js">
+                                                </script>
+                                                <script src="assets/js/validation.js">
+                                                </script>
+                                                <script src="assets/js/darkmode.js">
+                                                </script>
+                                                <script src="assets/js/animations.js"></script>
+                                                <script src="assets/js/main.js">
+                                                </script>
+                                              </body>
+                                            </html>
